@@ -10,6 +10,7 @@ public class TestController {
 
     @RequestMapping(value = "test", method = RequestMethod.GET)
     public ResponseEntity<Object> test(){
+
         return ResponseEntity.ok().body(null);
     }
 }
